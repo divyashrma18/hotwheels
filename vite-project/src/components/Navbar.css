@@ -1,0 +1,50 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 300px;
+    padding: 0 2rem;
+    background: rgba(0, 0, 0, 0.1); 
+    backdrop-filter: blur(6px);
+    color: white;
+    z-index: 1000;
+  }
+  
+  .logo img {
+    height: 45px;
+    cursor: pointer;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-right: 100px;
+  }
+  
+  .nav-links li {
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links li:hover {
+    color: #F8DE04; 
+  }
+  
+  .bag {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .bag:hover {
+    transform: scale(1.1);
+    color: #F8DE04;
+  }
+  
